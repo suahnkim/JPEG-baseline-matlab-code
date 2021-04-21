@@ -1,5 +1,8 @@
 # JPEG baseline matlab encoder
- Produces JFIF compliant baseline JPEG images (grayscaled & color & Huffman optimized version)
+[![DOI](https://zenodo.org/badge/360074123.svg)](https://zenodo.org/badge/latestdoi/360074123)
+[![View JPEG-baseline-matlab-code on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/90840-jpeg-baseline-matlab-code)
+
+Produces JFIF compliant baseline JPEG images (grayscaled & color & Huffman optimized version)
 
 # Installation
 - Download zip from github
