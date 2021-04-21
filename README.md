@@ -1,4 +1,4 @@
-# JPEG baseline matlab code
+# JPEG baseline matlab encoder
  Produces JFIF compliant baseline JPEG images (grayscaled & color & Huffman optimized version)
 
 # Installation
