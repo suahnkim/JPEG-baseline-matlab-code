@@ -1,3 +1,10 @@
+%Description: 
+% Encodes a decimal value into binary  
+%Input: decimal value
+%Output: binary 
+%Created by: Suah Kim
+%Last edited by: Suah Kim, 4/21/2021
+
 function encoded_value = value_binarization(value)
 if value == 0
     encoded_value='';

@@ -3,8 +3,7 @@
 % matrix multiplied to acheive the same result. This results in significantly faster
 % calculation, but with slightly reduced accuracy.
 %Input: single channel of the image, and the quantization table to be used 
-%Output: quantized DCT coefficients 
-%Created by: Suah Kim
+%Output: quantized DCT coefficients %Created by: Suah Kim
 %Last edited by: Suah Kim, 4/21/2021
 function quantized_coeff = dct_quantization(image,q_table)
 [image_height,image_width]=size(image);

@@ -36,7 +36,7 @@ JFIF_stream=pxl2jpgencoder(original_image,optimize_flag,q_table,s_factors);
 %% Write JFIF_stream
 [~, name,fmt]=fileparts(image_fullname);
 if isequal(lower(fmt),'.jpg') || isequal(lower(fmt),'.jpeg')
-        fid = fopen([ name '_re_encoded.jpg'], 'w'); % if a jpeg file has been compressed again, don't save it as the same name to prevent overwriting the original
+        fid = fopen([ name '_re_encoded.jpg'], 'w'); % if a jpeg file ha been compressed again, don't save it as the same name to prevent overwriting the original
 else
         fid = fopen([ name  '.jpg'], 'w');
 end

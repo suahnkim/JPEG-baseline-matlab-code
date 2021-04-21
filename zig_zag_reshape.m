@@ -1,5 +1,11 @@
+%Description: 
+% Reorder quantized DCT coefficients in a zig-zag ordering
+%Input: quantized DCT coefficients
+%Output: zig-zagged quantized DCT coefficients 
+%Created by: Suah Kim
+%Last edited by: Suah Kim, 4/21/2021
+
 function zig_zag_coeff=zig_zag_reshape(quantized_coeff)
-% zig zag ordering
 zig_zag=[...
     1 9 2 3 10 17 25 18 11 4 5 12 19 26 ...
     33 41 34 27 20 13 6 7 14 21 28 35 ...
